@@ -1,5 +1,5 @@
 read -p "Enter name: " name
-adduser --disabled-password $name
+echo -e " \n \n \n \n \ny" adduser --disabled-password $name
 
 mkdir /home/$name/.ssh
 chmod 700 /home/$name/.ssh
